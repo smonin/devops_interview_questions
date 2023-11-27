@@ -1,4 +1,4 @@
-##### *DEVOPS INTERVIEW QUESTIONS*
+##### DEVOPS INTERVIEW QUESTIONS
 
 ### Методологии, DevOps практики, общие вопросы
 
@@ -39,10 +39,10 @@ Lsof <path_to_file> or lsof +D <path_to_directory>
 Nohup  
 Удалили файл логов nginx, нужно восстановить его содержимое, процесс еще запущен, машина не перезагружалась  
 Сигналы  
-    - что такое
-    - какие бывают
-    - sync
-    - fork
+    - что такое  
+    - какие бывают  
+    - sync  
+    - fork  
 двойные кавычки vs одинарные кавыски vs обратные кавычки  
 `#!`  
 shutdown -h  
@@ -53,8 +53,8 @@ chmod -x /bin/chmod
 Состояния процессов  
 Зомби процессы и сироты  
 Как появляются зомби процессы  
-apt:
-    - найти пакет
+apt:  
+    - найти пакет  
     - найти пакет в составе package  
 Перенаправление ввода/вывода  
 
@@ -75,13 +75,13 @@ OCI model vs TCP\IP model
 TCP vs UDP  
 TCP трехстороннее рукопожатие  
 Как размещается несколько доменов на одном IP(Header Host)  
-TSL/SSL:
-    - SERVER NAME EXTANTION
-    - certificate HTTPS\TLS - where is files
-HTTP:
-    - v1 vs v2
-    - Коды ошибок
-    - Разница между кодами 301, 302, 307, 308
+TSL/SSL:  
+    - SERVER NAME EXTANTION  
+    - certificate HTTPS\TLS - where is files  
+HTTP:  
+    - v1 vs v2  
+    - Коды ошибок  
+    - Разница между кодами 301, 302, 307, 308  
 MTU
 Jumbo frames
 Что происходит когда набираешь curl google.com(Что происходит после ввода адреса ya.ru в браузер?)
@@ -89,9 +89,9 @@ Proxy vs VPN
 Что такое сеть доставки контента (CDN)
 NAT vs PAT
 traceroute vs mtr
-iptables:
-    - список цепочек
-    - DROP vs REJECT
+iptables:  
+    - список цепочек  
+    - DROP vs REJECT  
 
 ---
 
@@ -148,23 +148,23 @@ StatefulSet
 Job  
 CronJob  
 RBAC  
-Services:
-    - ClusterIP
-    - Nodeport 
-    - Loadbalancer
-	- ExternalNam
-kube-proxy:
-    - iptables
-    - ipvs
+Services:  
+    - ClusterIP  
+    - Nodeport  
+    - Loadbalancer  
+    - ExternalName  
+kube-proxy:  
+    - iptables  
+    - ipvs  
 Политика requests=limits  
 Стратегии деплоя  
 Переопределение CMD и ENTRYPOINT  
 CRI - какие бывают  
-CNI:
-    - какие бывают
-    - calico
-    - flannel
-    - weavenet
+CNI:  
+    - какие бывают  
+    - calico  
+    - flannel  
+    - weavenet  
 
 ---
 
