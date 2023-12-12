@@ -50,9 +50,9 @@ Nohup
 Сигналы:  
     - что такое  
     - какие бывают  
-    - SIGHUP
-    - SIGKILL
-    - SIGTERM
+    - SIGHUP  
+    - SIGKILL  
+    - SIGTERM  
 Межпроцессное взаимодействие  
 Системный вызов fork  
 Двойные кавычки vs одинарные кавычки vs машинописный обратный апостроф  
@@ -67,7 +67,7 @@ Nohup
 `$@`  
 `$$`  
 source script.sh VS ./script.sh  
-Машинописный обратный апостроф VS $() - $(docker ps -a) VS `docker ps -a`  
+Машинописный обратный апостроф VS `$()` - `$(docker ps -a)` VS ``docker ps -a``  
 Определение переменной в bash с командой export и без нее - export VAR1=abc VS VAR2=abc  
 shutdown -h  
 jar VS war  
@@ -101,7 +101,7 @@ BASH:
     - declare -A FOO
     - set -x  
     - set -e  
-    - cкобки, двойные, квадратные и двойные квадратные скобки
+    - cкобки, двойные, квадратные и двойные квадратные скобки  
 Для чего нужны директории:  
     - dev  
     - proc  
@@ -134,12 +134,12 @@ HTTP:
     - Коды ошибок  
     - Разница между кодами 301, 302, 307, 308  
 MTU
-Jumbo frames
-Что происходит когда набираешь curl google.com(Что происходит после ввода адреса ya.ru в браузер?)
-Proxy vs VPN
-Что такое сеть доставки контента (CDN)
-NAT vs PAT
-traceroute vs mtr
+Jumbo frames  
+Что происходит когда набираешь curl google.com(Что происходит после ввода адреса ya.ru в браузер?)  
+Proxy vs VPN  
+Что такое сеть доставки контента (CDN)  
+NAT vs PAT  
+traceroute vs mtr  
 iptables:  
     - список цепочек  
     - DROP vs REJECT  
@@ -196,8 +196,8 @@ Qos:
     - BestEffort    
 Политика requests=limits  
 NodeAfinity & AntiAfinity vs PodAfinity  
-Requests and Limits
-Priority class and preemption
+Requests and Limits  
+Priority class and preemption  
 Taints and Tolerations, NoSchedule, PreferNoSchedule и NoExecute  
 Pods - Restart Policy  
 Pods lifecycle  
@@ -264,7 +264,6 @@ multistage build
 UnionFS  
 Что выдаст команда id, запущенная в контейнере  
 docker uid remapping  
-
 Dockerfile:  
     - ENV vs ARG  
     - ADD vs COPY  
@@ -316,14 +315,14 @@ try/expect/finally
 assert  
 lambda
 if __name__ == “__main__”:  
-*args or  **kwargs
-yield
-Decorators
+*args or  **kwargs  
+yield  
+Decorators  
 Как передать переменную из одной функции в другую python  
 Classes:  
-    - как наследовать
+    - как наследовать  
     - _Some  
-    - __Some
+    - __Some  
 
 ---
 
