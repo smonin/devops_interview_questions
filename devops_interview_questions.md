@@ -15,12 +15,14 @@ GitOps
 
 ### Clouds
 
+## AWS
+
 Elastic IP addresses  
 Public ip vs Elastic ip  
 AWS Elastic Beanstalk  
 Policy evaluation logic  
 Allow and deny in IAGS  
-
+S3 versioning
 ---
 
 ### CI\CD
@@ -99,6 +101,7 @@ BASH:
     - declare -A FOO
     - set -x  
     - set -e  
+    - cкобки, двойные, квадратные и двойные квадратные скобки
 Для чего нужны директории:  
     - dev  
     - proc  
@@ -187,9 +190,14 @@ Worker node компоненты
 Что происходит когда выполняешь kubectl get nodes  
 Как с помощью программы kubectl посмотреть загрузку одной из нод в кластере  
 Как работает scheduler  
-Qos и Qos классы  
+Qos:
+    - Guaranteed  
+    - Burstable  
+    - BestEffort    
 Политика requests=limits  
 NodeAfinity & AntiAfinity vs PodAfinity  
+Requests and Limits
+Priority class and preemption
 Taints and Tolerations, NoSchedule, PreferNoSchedule и NoExecute  
 Pods - Restart Policy  
 Pods lifecycle  
@@ -217,7 +225,11 @@ kube-proxy:
     - iptables  
     - ipvs    
 Стратегии деплоя:  
-    - Blue-Green Deploy
+    - recreate
+    - rolling  
+    - blue/green  
+    - canary  
+    - dark(A/B)  
 Переопределение CMD и ENTRYPOINT  
 CRI - какие бывают  
 CNI:  
@@ -229,6 +241,10 @@ CNI:
 Admission Controllers  
 CPU Throttling  
 OOMkilled  
+Перенос подов с работающей ноды - drain  
+OPA Gatekeeper  
+kyverno  
+
 
 ---
 
@@ -266,20 +282,48 @@ Docker compose:
 ### DB
 
 ## Postgresql
-Как вывести список активных соединений на Postgresql?  
+Как вывести список активных соединений на Postgresql  
+Что такое WAL  
+Максимальный размер таблицы  
+Хранение бинарных данных  
+Как организован кластер  
+Patroni - что это и зачем  
+SQL:  
+    - COUNT  
+    - AVG  
+    - SUM  
+    - INNER JOIN  
+    - LEFT JOIN  
+    - RIGHT JOIN  
+    - OUTTER  
+    - HAVING VS WHERE  
+    - DISTINCT  
+    - Индекс, алгоритм индекса  
 
 ---
 
 ### Python
 
 Передавать аргументы в командной строке  
-Структуры данных  
-List vs tuple  
+Структуры и типы данных  
+list vs tuple  
 Аннотации  
 Очереди - deque  
 Менеджер контекста  
 Работа с  JSON  
 Механизм интернирования(256, 257)  
+try/expect/finally  
+assert  
+lambda
+if __name__ == “__main__”:  
+*args or  **kwargs
+yield
+Decorators
+Как передать переменную из одной функции в другую python  
+Classes:  
+    - как наследовать
+    - _Some  
+    - __Some
 
 ---
 
@@ -294,6 +338,8 @@ Cloud-Init
 ### Kafka
 
 Для чего нужны брокеры сообщений  
+Зачем много партиций в топике (производительность)  
+Зачем нужна репликация (надежность)  
 
 ---
 
