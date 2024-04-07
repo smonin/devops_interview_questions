@@ -13,9 +13,7 @@ GitOps
 
 ---
 
-### Clouds
-
-## AWS
+### AWS
 
 Elastic IP addresses  
 Public ip vs Elastic ip  
@@ -23,13 +21,14 @@ AWS Elastic Beanstalk
 Policy evaluation logic  
 Allow and deny in IAGS  
 S3 versioning
+
 ---
 
 ### CI\CD
 
 Опишите условный пайплайн 
 
-## Jenkins
+### Jenkins
  
 Upstream and downstream jobs in Jenkins  
 Declarative vs imperative  
@@ -355,7 +354,7 @@ Cloud-Init
 
 ---
 
-##### *Мои вопросы*
+### *Мои вопросы*
 
 Расскажите подробнее про проект?  
 Какой технологический стек?  
